@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: rgb(19, 18, 18);
+  padding-top: 50px;
+}
+.weather-card {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.history-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #2575fc;
+  border-color: #2575fc;
+}
+.btn-primary:hover {
+  background-color: #1a5dcc;
+  border-color: #1a5dcc;
+}
